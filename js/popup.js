@@ -8,12 +8,12 @@ var map = document.querySelector(".map-content");
 
 btnShow.addEventListener("click", function(event) {
     event.preventDefault();
-    popup.classList.add("popups-show");
+    popup.classList.add("modal-show");
 });
 
 btnClose.addEventListener("click", function(event) {
      event.preventDefault();
-     popup.classList.remove("popups-show");
+     popup.classList.remove("modal-show");
 });
 
 mapShow.addEventListener("click", function(event) {
